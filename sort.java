@@ -1,3 +1,4 @@
+
 import java.util.*;
 class sort
 {
@@ -18,14 +19,14 @@ class sort
 				word[i]=s1.nextLine();
 			}
 		}
-		System.out.println("\nbefore sorting:\n");
+		System.out.println("\nbefore sorting:");
 		{
 			for(int i=0;i<n;i++)
 			{
 				System.out.println(word[i]);
 			}
 		}
-		System.out.println("\nafter sorting:\n");
+		System.out.println("after sorting:");
 		for(int i=0;i<n;i++)
 		{
 			for(int j=i+1;j<n;j++)
